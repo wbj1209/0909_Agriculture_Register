@@ -8,6 +8,9 @@ module.exports = function(app)
         res.render('about.html');
     });
 	
-	
+    app.get('/intro',function(req,res){
+        res.render('intro.html');
+    });
+		
 
 }
